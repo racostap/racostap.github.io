@@ -26,13 +26,13 @@
                 <a class="nav-link" href="#speakers">Los Oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lugar y Fecha</a>
+                <a class="nav-link" href="#place-time">Lugar y Fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conviertete en Orador</a>
+                <a class="nav-link" href="#speak-form">Conviertete en Orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-highlight" href="#">Comprar Tickets</a>
+                <a class="nav-link text-highlight" href="#place-time">Comprar Tickets</a>
               </li>
                             
             </ul>
@@ -58,12 +58,12 @@
                 <div class="overlay">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div align="center" class="col">
-                                <h1>CONFERENCIA VIRTUAL 2022</h1>
+                            <div class="col text-center">
+                                <h1>CONFERENCIA TENDENCIAS 2022</h1>
                                 <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti uibusdam quo, delectus quam dicta itaque maiores eveniet consequatur mollitia commodi tempore quisquam nemo ratione sapiente ea beatae doloribus.</p>
                                 
                                 <p>
-                                    <button class="btn btn-warning">Comprar Tickets</button>
+                                  <a class="btn btn-warning" href="#place-time" role="button">Comprar Tickets</a>
                                 </p>
                             </div>
                         </div>
@@ -94,6 +94,10 @@
             <div class="card">
               <img src="/assets/orador1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="badges mb-2">
+                  <span class="badge bg-primary">Marketing Digital</span>
+                  <span class="badge bg-primary">Google Ads</span>
+                </div>
                 <h5 class="card-title">Ricardo Acosta Pinto</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus placeat, iusto doloribus, at ipsam amet culpa nostrum sequi id iure unde ex autem sapiente nemo, inventore ea esse aut nam!</p>
                 
@@ -104,6 +108,10 @@
             <div class="card">
               <img src="/assets/orador2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="badges mb-2">
+                  <span class="badge bg-primary">Trabajo en equipo</span>
+                  <span class="badge bg-primary">Metodología SCRUM</span>
+                </div>
                 <h5 class="card-title">Pedro Lopez Gómez</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus placeat, iusto doloribus, at ipsam amet culpa nostrum sequi id iure unde ex autem sapiente nemo, inventore ea esse aut nam!</p>
                 
@@ -114,6 +122,10 @@
             <div class="card">
               <img src="/assets/orador3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
+                <div class="badges mb-2">
+                  <span class="badge bg-primary">Análisis de datos</span>
+                  <span class="badge bg-primary">Segmentación</span>
+                </div>
                 <h5 class="card-title">Alberto Suarez de la Hoz</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus placeat, iusto doloribus, at ipsam amet culpa nostrum sequi id iure unde ex autem sapiente nemo, inventore ea esse aut nam!</p>
                 
@@ -126,6 +138,65 @@
       </div>
     </section>
     <!-- end oradores -->
+    <!-- Lugar y fecha -->
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 px-0 py-0" >
+            <img src="/assets/sede.jpg" alt="Honolulu">
+          </div>
+          <div class="col-lg-6 pt-4 px-4 pb-4">
+           <h2>Honolulu - Octubre 14 de 2022</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ipsum quas et veritatis? Earum, delectus! Molestias ipsa odit id sit ea autem, asperiores alias voluptatum quaerat, adipisci nam dolorem corporis.</p>
+           <a href="#" class="btn btn-outline-light">Conocer Más...</a>
+           <h2>Aquiere tu Ticket ahora!</h2>
+           <p>Preventa hasta Octubre 7 de 2022 <br/>Precio: $250<br/>*Incluye: Conferencias, refrigerios(2), Almuerzo "Buffet" y Coctel de despedida.</p>
+           <button type="button" class="btn btn-warning">Comprar Ticket</button>
+           <img src="/assets/metodos-pagow.fw.png" alt="">
+                    
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+    <!-- end Lugar y fecha -->
+    <!-- form speaker -->
+    <section id="speak-form" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>CONVIERTETE EN ORADOR</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p>Inscribete como orador y cuentanos que tema quieres compartir en la Conferencia Tendencias 2022...</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2 pt-2">
+            <div class="row g-2">
+              <div class="col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Apellidos" aria-label="Last name">
+              </div class="col-12 col-md-6">
+                <textarea name="text" id="text-area" cols="30" rows="8" placeholder="Tema de la conferencia" class="form-control form-control-lg"></textarea>
+              <div>
+              <div class="col d-grid gap-2">
+                <button type="button" class="btn btn-warning">Enviar Información</button>
+              </div>  
+
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- end form speaker -->
     <!-- Footer-->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
